@@ -19,8 +19,5 @@
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  },
-  "eslint.rules.customizations": [
-    { "rule": "*", "severity": "warn" }
-  ]
+  }
 }
