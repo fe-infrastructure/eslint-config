@@ -16,8 +16,7 @@
   "author": "yanquanfahei <1449826851@qq.com>",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">=8.0.0",
-    "typescript": ">=3.9"
+    "eslint": ">=8.0.0"
   },
   "dependencies": {
     "@eye-socket/eslint-config-basic": "workspace:*",
