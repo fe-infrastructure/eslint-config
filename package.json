@@ -1,0 +1,17 @@
+{
+  "name": "@eye-socket/eslint-config-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bumpp": "^8.2.1",
+    "eslint": "^8.17.0"
+  }
+}
