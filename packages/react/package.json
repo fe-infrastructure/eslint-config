@@ -1,0 +1,26 @@
+{
+  "name": "@eye-socket/eslint-config-react",
+  "version": "0.0.1",
+  "description": "eslint config react",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "readme.md",
+    "package.json"
+  ],
+  "scripts": {},
+  "keywords": [
+    "eslint-config",
+    "vue"
+  ],
+  "author": "yanquanfahei <1449826851@qq.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "dependencies": {
+    "@eye-socket/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
