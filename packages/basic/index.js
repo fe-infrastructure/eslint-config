@@ -16,7 +16,11 @@ module.exports = {
   overrides: [
     {
       files: ['*.json', '*.json5', '*.jsonc'],
-      parser: 'jsonc-eslint-parser'
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        quotes: 'off',
+        'quote-props': 'off'
+      }
     },
     {
       files: ['package.json'],

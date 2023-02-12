@@ -1,0 +1,27 @@
+{
+  "name": "@eye-socket/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "eslint config typescript",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "readme.md",
+    "package.json"
+  ],
+  "scripts": {},
+  "keywords": [
+    "eslint-config",
+    "typescript"
+  ],
+  "author": "yanquanfahei <1449826851@qq.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@eye-socket/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0"
+  }
+}
