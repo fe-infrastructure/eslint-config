@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@eye-socket/eslint-config-basic": "workspace:*",
+    "eslint": "^8.17.0",
     "vite": "^4.1.0"
   }
 }
