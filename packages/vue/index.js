@@ -18,6 +18,7 @@ module.exports = {
   ],
   extends: [
     'plugin:vue/vue3-recommended',
+    'plugin:vue-scoped-css/vue3-recommended',
     TS
       ? '@eye-socket/eslint-config-ts'
       : '@eye-socket/eslint-config-basic'

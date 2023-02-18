@@ -30,6 +30,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+::v-deep(.b) {
+  color: red;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
