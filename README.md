@@ -30,6 +30,8 @@ pnpm add eslint @eye-socket/eslint-config-[basic/ts/vue/react]
     "typescript",
     "typescriptreact",
     "markdown",
+    "vue",
+    "html",
     "json",
     "jsonc",
     "json5"
